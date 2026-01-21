@@ -1,0 +1,30 @@
+.bg1{
+    background-color: #7C4EE4 !important;
+}
+
+/* .backgroundimg{
+    background-image: url("./img/Image\ Placeholder.png") !important;
+} */
+
+.card{
+    transition: transform 0.5s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+   
+    
+@media (min-width:992px){
+    .isolate{
+        isolation: isolate !important;
+         margin-top: -200px;
+         z-index: 1000;
+         
+    }
+}
+
