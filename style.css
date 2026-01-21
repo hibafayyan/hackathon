@@ -20,11 +20,24 @@
    
     
 @media (min-width:992px){
-    .isolate{
-        isolation: isolate !important;
-         margin-top: -200px;
-         z-index: 1000;
-         
-    }
+   .relative{
+    position: relative;
+   }
+
+   .isolate{
+    position: absolute;
+    top: -300px;
+    right: 20px;
+    border-radius: 20px;
+   }
 }
+
+footer{
+    border-bottom: 1px solid #7C4EE4 !important;
+}
+
+
+
+
+
 
